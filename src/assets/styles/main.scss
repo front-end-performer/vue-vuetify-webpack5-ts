@@ -1,0 +1,54 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import "@/assets/styles/colors.scss";
+
+:root {
+	scroll-behavior: smooth;
+	overflow: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	height: 100vh;
+	font-size: 14px;
+	line-height: 20px;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scroll-behavior: smooth;
+}
+
+p {
+	font-size: small;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	-webkit-user-select: none;
+	/* Safari */
+	-khtml-user-select: none;
+	/* Konqueror HTML */
+	-moz-user-select: none;
+	/* Old versions of Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+	/* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+// SVG charts
+.svg-content {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.svg {
+	height: 100%;
+	width: 100%;
+}

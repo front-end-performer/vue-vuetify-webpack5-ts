@@ -1,0 +1,36 @@
+$qscr-dark-blue: #0f3359;
+$qscr-darkTheme-blue: #1b5da3;
+$qscr-blue: #144477;
+$qscr-light-blue: #1f69b8;
+$qscr-dark-green: #0A967A;
+$qscr-light-green: #00b68e;
+$qscr-red: #B60028;
+$qscr-light-red: #ff3a65;
+$qscr-yellow: #FFC300;
+$qscr-light-yellow: #ffdb66;
+$qscr-dark-grey: #6f7174;
+$qscr-light-grey: #bdc6d1;
+$qscr-transparent-white: rgba(255, 255, 255, 0.502);
+$qscr-transparent-black: rgba(0, 0, 0, 0.502);
+$qscr-white: white;
+$qscr-light-white: #f5f5f5;
+$qscr-dark-white: #f3f2f1;
+$qscr-black: black;
+$qscr-light-black: #2d2c2c;
+
+// to use the colors in vue code. Can be imported with --> import qscrColors from "@/assets/styles/colors.scss"
+:export {
+	qscrdarkblue: $qscr-dark-blue;
+	qscrdarkblue: $qscr-blue;
+	qscrlightblue: $qscr-light-blue;
+	qscrdarkgreen: $qscr-dark-green;
+	qscrlightgreen: $qscr-light-green;
+	qscrdarkgrey: $qscr-dark-grey;
+	qscrlightgrey: $qscr-light-grey;
+	qscrtransparentwhite: $qscr-transparent-white;
+	qscrwhite: $qscr-white;
+	qscrblack: $qscr-black;
+	qscrlightblack:$qscr-light-black;
+}
+
+
