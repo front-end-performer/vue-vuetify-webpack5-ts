@@ -1,6 +1,6 @@
 # 📦 VUE2 - Webpack5 - TS
 
-Webpack 5 boilerplate using Babel, TS-loader, Sass.
+Webpack 5 boilerplate using Babel, TypeScript, Sass.
 
 ## Installation
 
